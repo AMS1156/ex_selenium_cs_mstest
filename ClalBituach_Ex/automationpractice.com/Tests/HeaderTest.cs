@@ -19,10 +19,10 @@ namespace ExClalBit.automationpractice.com.Tests
         {
             BaseTest.TestFixtureSetup(testContext);
         }
+        
         [TestMethod]
         public void Tc_01_ClickOnSignIn()
         {
-            
             try
             {
                 TestName = "Test_01";
