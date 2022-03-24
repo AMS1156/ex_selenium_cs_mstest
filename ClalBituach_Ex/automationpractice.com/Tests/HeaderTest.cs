@@ -19,10 +19,10 @@ namespace ExClalBit.automationpractice.com.Tests
         {
             BaseTest.TestFixtureSetup(testContext);
         }
+        
         [TestMethod]
         public void Tc_01_ClickOnSignIn()
         {
-            
             try
             {
                 TestName = "Test_01";
@@ -32,7 +32,7 @@ namespace ExClalBit.automationpractice.com.Tests
                 string expectedResult = "Login - My Store";
                 string actualResult = driver.Title;
                 Assert.AreEqual(expectedResult, actualResult);
-                test.Log(LogStatus.Pass, "The actual result is passed");
+                test.Log(LogStatus.Pass, "The actual result is passed!");
             }
             catch (Exception e)
             {
