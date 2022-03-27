@@ -32,6 +32,7 @@ namespace ExClalBit.automationpractice.com.Tests
                 test = reports.StartTest(TestName, TestDescription);
                 registerPage.ClickOnSignIn();
                 authenticationPage.AccountCreation(authenticationPage.GetRandomEmail());
+
                 registerPage.fillPersonalInformation(TestContext.DataRow[0].ToString(), TestContext.DataRow[1].ToString(), TestContext.DataRow[2].ToString(), TestContext.DataRow[3].ToString(),
                     TestContext.DataRow[4].ToString());
 
